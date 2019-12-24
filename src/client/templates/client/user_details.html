@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ title }}{% endblock title %}
+
+{% block content %}
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-bottom: 50px;">
+          <a id="logout" class="navbar-brand" href="#">Logout</a>
+        </nav>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                  <h1 class="display-4">User Details</h1>
+                  <p class="lead" id="user_details"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
