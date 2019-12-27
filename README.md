@@ -23,28 +23,22 @@ Pre-requisites, install them according to your system:
 3. Create a django superuser
 
 ```shell
-    pipenv install
-```
-
-4. Create a django superuser
-
-```shell
     python manage.py createsuperuser
 ```
 
-5. Run migrations
+4. Run migrations
 
 ```shell
     python manage.py migrate
 ```
 
-6. Run server
+5. Run server
 
 ```shell
     python manage.py runserver
 ```
 
-7. Create oauth application (It has to be called **users**, **VERY IMPORTANT!**)
+6. Create oauth application (It has to be called **users**, **VERY IMPORTANT!**)
 * First login with superuser at http://localhost:8000/admin
 * Now go to http://localhost:8000/o/applications
 * Click on New Application, it's a green button
